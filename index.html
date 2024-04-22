@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Langpad</title>
+</head>
+<body>
+    <div id="panel">
+
+        <div class="figure prevent-select">
+
+            <div id="keys">
+
+                <div class="row" id="row1">
+                    <div class="btn-out" id="btn-p"><div class="btn-in">P</div></div>
+                    <div class="btn-out" id="btn-oo"><div class="btn-in">Å</div></div>
+                    <div class="btn-out" id="btn-ue"><div class="btn-in">Ü</div></div>
+                </div>
+    
+                <div class="row" id="row2">
+                    <div class="btn-out" id="dtn-l"><div class="btn-in">L</div></div>
+                    <div class="btn-out" id="dtn-oe"><div class="btn-in">Ö</div></div>
+                    <div class="btn-out" id="dtn-ae"><div class="btn-in">Ä</div></div>
+                </div>
+    
+                <div class="row" id="row3">
+                    <div class="btn-out" id="dtn-lab"><div class="btn-in"><</div></div>
+                    <div class="btn-out" id="dtn-rab"><div class="btn-in">></div></div>
+                    <div class="btn-out" id="dtn-ss"><div class="btn-in">ß</div></div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="switch-place">
+
+            <label class="switch">
+                <input type="checkbox" id="changer" checked>
+                <span class="slider round"></span>
+            </label>
+
+        </div>
+    
+    </div>
+    <div id="text-container">
+
+        <textarea id="text"></textarea>
+
+    </div>
+
+    <script src="./scripts/jquery-2.1.0.min.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
